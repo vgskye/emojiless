@@ -8,8 +8,7 @@
     "Skye"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/vgskye/emojiless"
   },
   "license": "0BSD",
   "icon": "icon.png",
