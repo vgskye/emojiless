@@ -1,0 +1,19 @@
+.DS_Store
+.vscode/launch.json
+.vscode/settings.json
+/TexturePSDs/
+run/
+build/
+bin/
+.gradle/
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle

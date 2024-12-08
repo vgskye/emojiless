@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "emojiless",
+  "version": "${version}",
+  "name": "Emojiless",
+  "description": "Super simple emoji rendering based on Inline",
+  "authors": [
+    "Skye"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "0BSD",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "vg.skye.fabric.EmojilessFabric"
+    ],
+    "client": [
+      "vg.skye.fabric.client.EmojilessFabricClient"
+    ]
+  },
+  "mixins": [
+    "emojiless.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "inline": "*"
+  }
+}

@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "0BSD"
+
+[[mods]]
+modId = "emojiless"
+version = "${version}"
+displayName = "Emojiless"
+authors = "Skye"
+description = '''
+Super simple emoji rendering based on Inline
+'''
+logoFile = "icon.png"
+
+[[dependencies.emojiless]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.emojiless]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.emojiless]]
+modId = "inline"
+mandatory = true
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
