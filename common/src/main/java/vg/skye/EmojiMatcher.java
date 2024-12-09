@@ -4,7 +4,6 @@ import com.samsthenerd.inline.api.data.SpriteInlineData;
 import com.samsthenerd.inline.api.matching.ContinuousMatcher;
 import com.samsthenerd.inline.api.matching.MatchContext;
 import com.samsthenerd.inline.api.matching.MatcherInfo;
-import com.samsthenerd.inline.utils.TextureSprite;
 import net.minecraft.resources.ResourceLocation;
 
 import java.util.regex.MatchResult;
@@ -25,8 +24,7 @@ public class EmojiMatcher implements ContinuousMatcher {
             String emoji = mr.group(1);
             var tex = EmojilessClient.emojis.get(emoji);
             if (tex != null) {
-                var sprite = new TextureSprite(tex.loc(), 0, 0, 1, 1, tex.w(), tex.h());
-                result.addMatch(mr.start(), mr.end(), new SpriteInlineData(sprite));
+                result.addMatch(mr.start(), mr.end(), new SpriteInlineData(tex));
             }
         }
         return result;
