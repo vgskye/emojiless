@@ -83,6 +83,17 @@ public class AnimatedTextureSprite extends Spritelike {
     public int getFrameHeight() {
         return frameHeight;
     }
+
+    @Override
+    public int getSpriteWidth() {
+        return textWidth;
+    }
+
+    @Override
+    public int getSpriteHeight() {
+        return frameHeight;
+    }
+
     public List<Integer> getDelays() {
         return Arrays.stream(delays).boxed().toList();
     }
