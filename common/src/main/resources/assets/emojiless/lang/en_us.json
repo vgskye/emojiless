@@ -1,4 +1,6 @@
 {
-  "matcher.emojiless.emoji.title.styled": "Emojis",
-  "matcher.emojiless.emoji.description": "Displays shortcodes as emojis"
+  "matcher.emojiless.emoji.title.styled": "Emojis (shortcode syntax)",
+  "matcher.emojiless.emoji.description": "Displays shortcodes as emojis",
+  "matcher.emojiless.emoji_standard.title.styled": "Emojis (Inline syntax)",
+  "matcher.emojiless.emoji_standard.description": "Displays emojis using Inline syntax"
 }

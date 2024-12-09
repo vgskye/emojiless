@@ -26,6 +26,7 @@ public final class EmojilessClient {
 
     public static void init() {
         InlineClientAPI.INSTANCE.addMatcher(EmojiMatcher.INSTANCE);
+        InlineClientAPI.INSTANCE.addMatcher(EmojiMatcher.STANDARD);
     }
 
     public static AnimatedTextureSprite readGif(ResourceLocation loc, ByteBuffer buf) throws IOException {
